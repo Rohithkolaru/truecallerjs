@@ -25,7 +25,7 @@ import { search } from "../dist/search.js";
 describe("Search a phone number", () => {
   test("Should search for a phone number details", async () => {
     var search_data = {
-      number: process.env.TEST_PHONE_NUMBER || "9912345678",
+      number: process.env.TEST_PHONE_NUMBER || "9994317406",
       countryCode: "IN", // Country code to use by default if  phone number is not in `e164` format(Internation format)
       installationId:
         process.env.TEST_INSTALLATION_ID ||
